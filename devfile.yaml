@@ -11,7 +11,7 @@ attributes:
 components:
   - name: tools
     container:
-      image: registry.access.redhat.com/ubi9/devtoolset
+      image: registry.redhat.io/devspaces/udi-base-rhel9
       memoryLimit: 512Mi
       mountSources: true
       command:
